@@ -7,8 +7,10 @@ StudentID: 313553027
 GPU: GeForce RTX 4090  
 Training time: 100min  
 Importance package version:  
- - python=3.11.7  
- - pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124  
+ - python=3.11.7
+ - numpy=2.1.2
+ - pandas=2.2.3
+ - torch=2.6.0+cu124 
 
 # Performance snapshot
 ![image](https://github.com/jennytenghere/VRDL-HW1/blob/main/v11_score.png)
